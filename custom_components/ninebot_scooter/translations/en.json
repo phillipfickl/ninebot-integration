@@ -1,0 +1,22 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Ninebot Scooter",
+                "description": "Choose your Ninebot scooter from the list of discovered devices.",
+                "data": {
+                    "address": "Device"
+                }
+            },
+            "bluetooth_confirm": {
+                "title": "Ninebot Scooter",
+                "description": "Confirm setup of {name}"
+            }
+        },
+        "abort": {
+            "not_supported": "This device is not a supported Ninebot scooter.",
+            "no_devices_found": "No Ninebot scooters found nearby. Make sure your scooter is powered on and in Bluetooth range.",
+            "already_configured": "This scooter is already configured."
+        }
+    }
+}

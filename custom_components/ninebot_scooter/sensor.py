@@ -66,7 +66,7 @@ async def async_setup_entry(
 
 
 class NinebotBluetoothSensorEntity(
-    PassiveBluetoothProcessorEntity[PassiveBluetoothDataProcessor[str | int | None,1]],
+    PassiveBluetoothProcessorEntity[PassiveBluetoothDataProcessor[str | int | None]],
     SensorEntity,
 ):
     """Representation of a Ninebot sensor."""
